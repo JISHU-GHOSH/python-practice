@@ -1,0 +1,11 @@
+credit_card_number="2154-6325-8205"
+first_digit=credit_card_number[0]
+last_digit=credit_card_number[-1]
+alternate_digit=credit_card_number[::2]
+every_three_digit=credit_card_number[::3]
+random=credit_card_number[1:6:1]
+print(first_digit)
+print(last_digit)
+print(alternate_digit)
+print(every_three_digit)
+print(random)
