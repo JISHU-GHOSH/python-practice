@@ -14,10 +14,15 @@ It includes basic concepts such as conditions, logical operators, string methods
 
 ## 📁 Folder Structure
 python practice/
-basics/
-logical_operators.py
-conditional_expressions.py
-string_methods.py
+  basics/
+    variables_and_input.py
+    operators_and_conditions.py
+    loops_for.py
+    loops_while.py
+    logical_operators.py
+    conditional_expressions.py
+    string_methods.py
+
 
 ## 🛠️ Tech Used
 - Python
