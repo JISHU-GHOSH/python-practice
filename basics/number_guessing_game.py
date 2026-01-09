@@ -2,6 +2,7 @@ import random
 
 low=1
 high=50
+guess=0
 
 secret_number=random.randint(low, high)
 print("guess the number between 1 to 50")
@@ -16,6 +17,7 @@ while True:
                 print("that was correct!")
                 break
             else:
+                guess+=1
                 if user_input>secret_number:
                     print("your guess is too high, try again")
                 else:
@@ -24,3 +26,4 @@ while True:
             print(f"please enter a number between {low} and {high}")
     else:
         print("invalid input! Please enter a valid number")
+print(f"you took {guess} to guess the number")        
